@@ -6,6 +6,7 @@ public class MaxRang {
 		for(int i=index1;i<=index2;i++) {
 			if(maxVal<arr[i]) {
 				maxVal=arr[i];
+				System.out.println(maxVal);
 			}
 		}
 		return maxVal;
